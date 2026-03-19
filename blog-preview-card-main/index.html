@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "figtree";
+      src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      font-weight: 300 900;
+      font-style: normal;
+    }
+
+
+    * ,::before,::after {
+      padding: 0px;
+      font-family: "figtree", sans-serif;
+
+
+    }
+
+    body {
+      background-color: hsl(47, 88%, 63%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+
+    #blog-preview-card {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border: 1px black solid;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 8px 8px 0px 0px black;
+      max-width: 384px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    #learning {
+      background-color: hsl(47, 88%, 63%);
+      padding: 5px;
+      width: 80px;
+      border-radius: 6px;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    #author {
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+    }
+
+    #author-image {
+      width: 15%;
+      margin: 5px;
+    }
+      
+    p {
+      font-size: 16px;
+    }
+
+    #description {
+      color: hsl(0, 0%, 42%);
+    }
+
+    #card-image {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #blog-content {
+      width:100%;
+    }
+
+    
+
+  </style>
+</head>
+<body>
+  <main id="blog-preview-card">
+    
+      
+    <img id="card-image" src="./assets/images/illustration-article.svg" alt="Illustration Article">
+
+    <div id="blog-content">
+      <p id="learning">Learning</p>
+      <p id="published">Published 21 Dec 2023</p>
+      <h1 id="title">HTML & CSS foundations</h1>
+      <p id="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p id="author"><img id="author-image" src="./assets/images/image-avatar.webp">Greg Hooper</p>
+    </div>
+  </main>
+</body>
+</html>
