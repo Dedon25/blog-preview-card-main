@@ -52,7 +52,7 @@ It is designed to be responsive and visually appealing across different screen s
 
 ## 📸 Screenshot
 
-![Preview](./blog-preview-card)
+![Preview](./blop-preview-card.png)
 
 ## 🔗 Live Demo
 
