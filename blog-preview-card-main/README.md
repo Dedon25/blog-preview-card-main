@@ -35,11 +35,17 @@ It is designed to be responsive and visually appealing across different screen s
 
 ## 📂 Project Structure
 ├── index.html
+
 ├── assets/
+
 │ ├── images/
+
 │ │ ├── illustration-article.svg
+
 │ │ └── image-avatar.webp
+
 │ └── fonts/
+
 │ └── Figtree-VariableFont_wght.ttf
 
 
@@ -57,7 +63,7 @@ It is designed to be responsive and visually appealing across different screen s
 ## 🔗 Live Demo
 
 You can view the live project here:  
-👉 *Add your deployment link here (e.g., GitHub Pages)*
+👉 *(https://dedon25.github.io/blog-preview-card-main/blog-preview-card-main/index.html)*
 
 ## 🧠 Future Improvements
 
@@ -67,6 +73,5 @@ You can view the live project here:
 
 ## 👤 Author
 
-- Your Name  
-- Frontend Mentor Profile *(optional)*  
-- GitHub Profile *(optional)*  
+- Frontend Mentor Profile *[@Dedon25](https://www.frontendmentor.io/profile/Dedon25)*  
+- GitHub Profile *[@Dedon25](https://github.com/Dedon25)*  
